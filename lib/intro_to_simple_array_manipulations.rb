@@ -3,8 +3,8 @@ def using_push(colors_in_the_rainbow, next_color)
   colors_in_the_rainbow
 end
 
-def using_unshift
-
+def using_unshift array, string
+  array.unshift(string)
 end
 
 def using_pop
